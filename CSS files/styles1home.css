@@ -1,0 +1,347 @@
+/*This is the external CSS style sheet for the Home Page of Aqua Marine Transport*/
+*{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    scroll-behavior: smooth;
+}
+/*background of the navigation bar is in a shade of a moderate, cool blue.*/
+.navbar { 
+    background: #3d6cb9;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    top: 0;
+    z-index: 999;
+    padding: 2% 2%;
+    position: fixed;
+    width: 100%;
+}
+.navbar__container {
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    padding: 0 50px;
+}
+#navbar__logo img{
+    top: 0%;
+    left: 0%;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.navbar__menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    text-align: center;
+}
+.navbar__item { 
+    height: 50px;
+}
+.navbar__links { /*font color of the links are in white*/
+    color: #fff;
+    display: inline-block;
+    align-items: center;
+    justify-content: space-between;
+    width: 140px;
+    text-decoration: none;
+    height: 100%;
+    transition: all 0.3s ease;
+    
+}
+.navbar__links::after{ /*this gives the underline transition below the menu items when hovered*/
+    content: '';
+    width: 0px;
+    height: 2px;
+    background: aquamarine;
+    display: block;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s;
+}
+.navbar__links:hover::after{ /*this gives the underline transition below the menu items when hovered*/
+    width: 100px;
+    transition: all 0.3s ease;
+}
+.tagline{/*background photo for tagline*/
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,105,148,0.5), rgba(0,105,148,0.5)), url("../images/1home/sea\ trial\ crop.jpg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+h1{ /*text in the center of the banner*/
+    position: absolute;
+    text-align: center;
+    color: white;
+    top: 50%;
+    left: 50%;
+    margin-top: 50px;
+    transform: translate(-50%, -50%);
+    display: inline;
+    font-size: 33px;
+    font-style: italic;
+}
+img{ /*the four images that give brief overviews*/
+    width: 100%;
+    border-radius: 10px;
+}
+h3{ /*the heading of each brief overview*/
+    font-size: 35px;
+}
+.aboutRow{ /*the background color of the brief overview for the about page is aquamarine*/
+    background-color: aquamarine;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+}
+.aboutCol{
+    flex-basis: 50%;
+    background: aquamarine;
+    padding: 20px 12px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px 12px;
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size: 25px;
+}
+.aboutWord{
+    line-height: 50px;
+    padding-top: 30px;
+}
+.serviceRow{ /*the background color of the brief overview for the services page is white*/
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+}
+.serviceCol{
+    flex-basis: 50%;
+    padding: 20px 12px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px 12px;
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size: 25px;
+}
+.serviceWord{
+    line-height: 50px;
+    padding-top: 30px;
+}
+.POC-Row{ /*the background color of the brief overview for the ports of call page is aquamarine*/
+    background-color: aquamarine;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+}
+.POC-Col{
+    flex-basis: 50%;
+    background: aquamarine;
+    padding: 20px 12px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px 12px;
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size: 25px;
+}
+.POCWord{
+    line-height: 50px;
+    padding-top: 30px;
+}
+.contactRow{ /*the background color of the brief overview for the services page is white*/
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+}
+.contactCol{
+    flex-basis: 50%;
+    padding: 20px 12px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px 12px;
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size: 25px;
+}
+.contactWord{
+    line-height: 50px;
+    padding-top: 30px;
+}
+.MORE{ /*design of the "More" buttons are in blue*/
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    border: 1px solid blue;
+    background-color: blue;
+    padding: 10px 30px;
+    font-size: 20px;
+    position: relative;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.MORE::after{ /*this gives the white underline transition below the word "More" when hovered*/
+    content: '';
+    width: 0px;
+    height: 2px;
+    background: white;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.MORE:hover::after{ /*this gives the white underline transition below the word "More" when hovered*/
+    width: 40px;
+}
+footer{
+    clear: both;
+    display: block;
+    color: white;
+    background-color: #3d6cb9;
+    background-size: cover;
+    text-align: center;
+    padding: 15px;
+}
+@media screen and (max-width: 700px){ /*the design of the website changes when screensize is at max-width 700px*/
+    .navbar__container {
+        display: flex;
+        justify-content: space-between;
+        height: 80px;
+        z-index: 1;
+        width: 100%;
+        max-width: 1300px;
+        padding: 0;
+    }
+    .navbar__menu {
+        display: grid;
+        grid-template-columns: auto;
+        margin: 0;
+        width: 100%;
+        position: absolute;
+        top: -1000px;
+        opacity: 1;
+        transition: all 0.5s ease;
+        z-index: -1;
+    }
+    .navbar__menu.active {
+        background: #3d6cb9;
+        top: 100%;
+        right: 0%;
+        opacity: 1;
+        transition: all 0.5s ease;
+        z-index: 99;
+        height: 60vh;
+        font-size: 25px;
+    }
+    #navbar__logo img{
+        padding-top: 10px;
+    }
+    .navbar__toggle .bar { /*the menu is shrinked and and a menu icon represented by three white horizontal lines on top of each other appears*/
+        width: 25px;
+        height: 3px;
+        margin: 5px auto;
+        transition: all 0.3s ease-in-out;
+        background: #fff;
+    }
+    .navbar__item {
+        width: 100%;
+    }
+    .navbar__links {
+        text-align: center;
+        padding: 5px;
+        width: 100%;
+        display: table;
+    }
+    #mobile-menu {
+        position: absolute;
+        top: 20%;
+        right: 5%;
+        transform: translate(5%, 20%);
+    }
+    .navbar__toggle .bar {
+        display: block;
+        cursor: pointer;
+    }
+    /*the menu icon transitions into a close button when the menu is active*/
+    #mobile-menu.is-active .bar:nth-child(2) {
+        opacity: 0;
+    }
+    #mobile-menu.is-active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+    #mobile-menu.is-active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+    footer{
+        clear: both;
+    }
+    .AQTAG h1{
+        font-size: 22px;
+    }
+    .aboutRow{
+        display: block;
+    }
+    .aboutWord{
+        font-size: 20px;
+        line-height: 30px;
+        padding-top: 0;
+        margin-top: 0;
+    }
+    .serviceRow{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .serviceWord{
+        font-size: 20px;
+        line-height: 30px;
+        padding-top: 0;
+        margin-top: 0;
+    }
+    .POC-Row{
+        display: block;
+    }
+    .POCWord{
+        font-size: 20px;
+        line-height: 30px;
+        padding-top: 0;
+        margin-top: 0;
+    }
+    .contactRow{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .contactWord{
+        font-size: 20px;
+        line-height: 30px;
+        padding-top: 0;
+        margin-top: 0;
+    }
+}

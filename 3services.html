@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SERVICES | Aqua Marine Transport</title>
+    <link rel="stylesheet" href="CSS files/styles3services.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <!--NAVIGATION BAR: LOGO AND MENUS-->
+        <nav class="navbar">
+            <div class="navbar__container">
+                <!--LOGO OF BUSINESS WEBSITE-->
+                <a href="./1home.html" id="navbar__logo">
+                    <img src="./images/logo banner.png" alt="">
+                </a>
+                <!--THIS APPEARS WHEN SCREEN SIZE IS MAX-WIDTH 600PX-->
+                <div class="navbar__toggle" id="mobile-menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+                <!--MENU IN THE NAVIGATION BAR-->
+                <ul class="navbar__menu">
+                    <li class="navbar__item">
+                        <!--LEADS TO HOME PAGE-->
+                        <a href="./1home.html" class="navbar__links" id="home-page">Home</a>
+                    </li>
+                    <li class="navbar__item">
+                        <!--LEADS TO ABOUT US PAGE-->
+                        <a href="./2about_us.html" class="navbar__links" id="about-page">About Us</a>
+                    </li>
+                    <li class="navbar__item">
+                        <!--LEADS TO SERVICES PAGE-->
+                        <a href="./3services.html" class="navbar__links" id="services-page">Services</a>
+                    </li>
+                    <li class="navbar__item">
+                        <!--LEADS TO PORTS OF CALL PAGE-->
+                        <a href="./4portsOfCall.html" class="navbar__links" id="POC-page">Ports of Call</a>
+                    </li>
+                    <li class="navbar__item">
+                        <!--LEADS TO SCHEDULES AND RATES PAGE-->
+                        <a href="./5schedulesAndRates.html" class="navbar__links" id="SAR-page">Schedules and Rates</a>
+                    </li>
+                    <li class="navbar__item">
+                        <!--LEADS TO CONTACT US PAGE-->
+                        <a href="./6contactUs.html" class="navbar__links" id="contact-page">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!--THE JAVA SCRIPT FILE TO MAKE THE MOBILE NAVIGATION BAR WORK-->
+        <script src="navbar.js"></script>
+    </header>
+    <div class="servicesBanner">
+        <!--BACKGROUND IMAGE LOCATED IN CSS FILE IS POSITIONED HERE-->
+    </div>
+    <h2>SERVICES</h2>
+    <br>
+    <!--SERVICES PROVIDED BY THE BUSINESS-->
+    <div class="service-row">
+        <div class="service-col">
+            <!--PASSENGER SHIPPING-->
+            <img src="./images/3services/passenger-crop.jpg"> <!--pic of passenger shipping-->
+            <h4 class="pass-det">Passenger Shipping</h4>
+            <p class="pass-det">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure sed similique minima impedit cupiditate eligendi repellat nemo debitis sequi. Veniam ducimus quod obcaecati dolorum vel.</p>
+        </div>
+        <div class="service-col" id="cargo">
+            <!--CARGO SHIPPING-->
+            <img src="./images/3services/cargo-crop.jpg"> <!--pic of cargo shipping-->
+            <h4 class="cargo-det">Cargo Shipping</h4>
+            <p class="cargo-det">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure sed similique minima impedit cupiditate eligendi repellat nemo debitis sequi. Veniam ducimus quod obcaecati dolorum vel.</p>
+        </div>
+    </div>
+    <br>
+    <footer>
+        <h4>AQUA MARINE TRANSPORT</h4>
+        <p>Address: Lorem ipsum dolor sit amet.</p>
+        <p>Telephone number: 1234567890</p>
+        <p>&copy; Copyright 2021. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>

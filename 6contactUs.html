@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTACT US | Aqua Marine Transport</title>
+    <link rel="stylesheet" href="CSS files/styles6contactUs.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+</head>
+</head>
+<body>
+    <header>
+        <!--NAVIGATION BAR: LOGO AND MENUS-->
+        <nav class="navbar">
+            <div class="navbar__container">
+                <!--LOGO OF BUSINESS WEBSITE-->
+                <a href="./1home.html" id="navbar__logo">
+                    <img src="./images/logo banner.png" alt="">
+                </a>
+                <!--THIS APPEARS WHEN SCREEN SIZE IS MAX-WIDTH 600PX-->
+                <div class="navbar__toggle" id="mobile-menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+                <!--MENU IN THE NAVIGATION BAR-->
+                <ul class="navbar__menu">
+                    <li class="navbar__item">
+                        <!--LEADS TO HOME PAGE-->
+                        <a href="./1home.html" class="navbar__links" id="home-page">Home</a>
+                    </li>
+                    <li class="navbar__item">
+                        <!--LEADS TO ABOUT US PAGE-->
+                        <a href="./2about_us.html" class="navbar__links" id="about-page">About Us</a>
+                    </li>
+                    <li class="navbar__item">
+                        <!--LEADS TO SERVICES PAGE-->
+                        <a href="./3services.html" class="navbar__links" id="services-page">Services</a>
+                    </li>
+                    <li class="navbar__item">
+                        <!--LEADS TO PORTS OF CALL PAGE-->
+                        <a href="./4portsOfCall.html" class="navbar__links" id="POC-page">Ports of Call</a>
+                    </li>
+                    <li class="navbar__item">
+                        <!--LEADS TO SCHEDULES AND RATES PAGE-->
+                        <a href="./5schedulesAndRates.html" class="navbar__links" id="SAR-page">Schedules and Rates</a>
+                    </li>
+                    <li class="navbar__item">
+                        <!--LEADS TO CONTACT US PAGE-->
+                        <a href="./6contactUs.html" class="navbar__links" id="contact-page">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!--THE JAVA SCRIPT FILE TO MAKE THE MOBILE NAVIGATION BAR WORK-->
+        <script src="navbar.js"></script>
+    </header>
+    <div class="contactBanner">
+        <!--BACKGROUND IMAGE LOCATED IN CSS FILE IS POSITIONED HERE-->
+    </div>
+    <h2>CONTACT US</h2>
+    <br>
+    <!--MAP TO LOCATE THE MAIN OFFICE OF THE BUSINESS-->
+    <div class="mapouter">
+        <div class="gmap_canvas">
+            <iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=M.J.%20Cuenco%20Avenue,%20Cebu%20City,%20Cebu,%20Philippines&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+            </iframe>
+            <style>.mapouter{position:relative;text-align:right;height:500px;width:600px;}</style>
+            <style>.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style>
+        </div>
+    </div>
+    <br>
+    <!--CONTACT DETAILS OF THE BUSINESS-->
+    <div class="details">
+        <h4>CONTACT DETAILS:</h4>
+        <br>
+        <P>Main Address: Lorem ipsum dolor sit amet.
+        </P>
+        <P>Telephone Number: 1234567890</P>
+        <br>
+        <P>1st branch: Lorem ipsum dolor sit amet.
+        </P>
+        <P>Telephone Number: 1234567890</P>
+        <br>
+        <P>2nd branch: Lorem ipsum dolor sit amet.
+        </P>
+        <P>Telephone Number: 1234567890</P>
+        <br>
+        <P> 3rd branch: Lorem ipsum dolor sit amet.
+        </P>
+        <P>Telephone Number: 1234567890</P>
+        <br>
+    </div>
+    <!--EMAIL FORM FOR VIEWERS TO SEND A MESSAGE-->
+    <!--THIS FORM IS NOT FUNCTIONAL-->
+    <div class="aquaform">
+        <h4>Leave us a message!</h4>
+        <form action="">
+            <label for="Your Name">Your Name: </label>
+            <br>
+            <input type="text" name="Your Name" id="Your Name" placeholder="Your Name...">
+            <br>
+            <label for="Your Email">Your Email: </label>
+            <br>
+            <input type="email" name="Your Email" id="Your Email" placeholder="youremail@email.com">
+            <br>
+            <label for="Subject">Subject: </label>
+            <br>
+            <input type="text" name="Subject" id="Subject" placeholder="Subject of Message...">
+            <br>
+            <label for="Message">Message:</label>
+            <br>
+            <textarea name="Message" id="" cols="30" rows="10" placeholder="Write your message here..."></textarea>
+            <br>
+            <br>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    <footer>
+        <h4>AQUA MARINE TRANSPORT</h4>
+        <p>Address: Lorem ipsum dolor sit amet.</p>
+        <p>Telephone number: 1234567890</p>
+        <p>&copy; Copyright 2021. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>

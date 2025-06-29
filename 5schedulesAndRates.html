@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SCHEDULES AND RATES | Aqua Marine Transport</title>
+    <link rel="stylesheet" href="CSS files/styles5schedulesAndRates.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+</head>
+</head>
+<body>
+    <header>
+        <!--NAVIGATION BAR: LOGO AND MENUS-->
+        <nav class="navbar">
+            <div class="navbar__container">
+                <!--LOGO OF BUSINESS WEBSITE-->
+                <a href="./1home.html" id="navbar__logo">
+                    <img src="./images/logo banner.png" alt="">
+                </a>
+                <!--THIS APPEARS WHEN SCREEN SIZE IS MAX-WIDTH 600PX-->
+                <div class="navbar__toggle" id="mobile-menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+                <!--MENU IN THE NAVIGATION BAR-->
+                <ul class="navbar__menu">
+                    <li class="navbar__item">
+                        <!--LEADS TO HOME PAGE-->
+                        <a href="./1home.html" class="navbar__links" id="home-page">Home</a>
+                    </li>
+                    <li class="navbar__item">
+                        <!--LEADS TO ABOUT US PAGE-->
+                        <a href="./2about_us.html" class="navbar__links" id="about-page">About Us</a>
+                    </li>
+                    <li class="navbar__item">
+                        <!--LEADS TO SERVICES PAGE-->
+                        <a href="./3services.html" class="navbar__links" id="services-page">Services</a>
+                    </li>
+                    <li class="navbar__item">
+                        <!--LEADS TO PORTS OF CALL PAGE-->
+                        <a href="./4portsOfCall.html" class="navbar__links" id="POC-page">Ports of Call</a>
+                    </li>
+                    <li class="navbar__item">
+                        <!--LEADS TO SCHEDULES AND RATES PAGE-->
+                        <a href="./5schedulesAndRates.html" class="navbar__links" id="SAR-page">Schedules and Rates</a>
+                    </li>
+                    <li class="navbar__item">
+                        <!--LEADS TO CONTACT US PAGE-->
+                        <a href="./6contactUs.html" class="navbar__links" id="contact-page">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!--THE JAVA SCRIPT FILE TO MAKE THE MOBILE NAVIGATION BAR WORK-->
+        <script src="navbar.js"></script>
+    </header>
+    <div class="SARBanner">
+        <!--BACKGROUND IMAGE LOCATED IN CSS FILE IS POSITIONED HERE-->
+    </div>
+    <h2>SCHEDULES AND RATES</h2>
+    <br>
+    <!--INFORMATION ABOUT TRAVEL REQUIREMENTS FOR VIEWERS WHO WANT TO TRAVEL-->
+    <div class="travel">
+        <h4>TRAVEL REQUIREMENTS</h4>
+        <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit praesentium rerum impedit rem pariatur, nemo quo eveniet iusto quae? Inventore hic sint numquam, tempora modi incidunt! Repellat dolores earum nam sit, voluptates voluptatem voluptatibus, fugiat maxime provident enim similique molestiae ipsum temporibus dolor quidem esse rerum debitis omnis vitae! Odio.</P>
+    </div>
+    <br>
+    <br>
+    <br>
+    <!--INFORMATION ABOUT SCHEDULES AND RATES ARE ORGANIZED IN A TABLE-->
+    <div>
+        <h4 class="SARtabhead">SCHEDULES AND RATES</h4>
+        <br>
+        <style>
+            table, th, td {
+              border: 1px solid black;
+              border-collapse: collapse;
+              padding: 10px;
+            }
+        </style>
+        <table>
+            <tr>
+                <th>PORT LINK</th>
+                <th>DEPARTURE TIME</th>
+                <th>FREQUENCY</th>
+                <th>ACCOMODATION</th>
+                <th>RATE</th>
+            </tr>
+            <tr>
+                <td>From Lorem Ipsum A to Lorem Ipsum B
+                </td>
+                <td>00:00AM/PM</td>
+                <td>Every _____day</td>
+                <td>
+                    <p>Economy C</p>
+                    <p>Economy B</p>
+                    <p>Economy A</p>
+                </td>
+                <td>
+                    <p>PHP X</p>
+                    <p>PHP Y</p>
+                    <p>PHP Z</p>
+                </td>
+            </tr>
+            <tr>
+                <td>From Lorem Ipsum A to Lorem Ipsum C
+                </td>
+                <td>00:00AM/PM</td>
+                <td>Every _____day</td>
+                <td>
+                    <p>Economy C</p>
+                    <p>Economy B</p>
+                    <p>Economy A</p>
+                </td>
+                <td>
+                    <p>PHP X</p>
+                    <p>PHP Y</p>
+                    <p>PHP Z</p>
+                </td>
+            </tr>
+            <tr>
+                <td>From Lorem Ipsum A to Lorem Ipsum D
+                </td>
+                <td>00:00AM/PM</td>
+                <td>Every _____day</td>
+                <td>
+                    <p>Economy C</p>
+                    <p>Economy B</p>
+                    <p>Economy A</p>
+                </td>
+                <td>
+                    <p>PHP X</p>
+                    <p>PHP Y</p>
+                    <p>PHP Z</p>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <br>
+    <footer>
+        <h4>AQUA MARINE TRANSPORT</h4>
+        <p>Address: Lorem ipsum dolor sit amet.</p>
+        <p>Telephone number: 1234567890</p>
+        <p>&copy; Copyright 2021. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
